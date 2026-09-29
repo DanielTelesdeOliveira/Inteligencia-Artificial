@@ -7,10 +7,8 @@ Scikit-learn para prever o preço de conjuntos LEGO.
 
 ## Integrantes
 
-  Integrante                  GitHub
-  --------------------------- ----------------------
-  Daniel Teles de Oliveira    DanielTelesdeOlivera
-  João Victor Torres Soares   JTSoares
+- Daniel: [github.com/DanielTelesdeOliveira](https://github.com/DanielTelesdeOliveira)
+- João Victor: [github.com/JTSoares](https://github.com/JTSoares)
 
 ## Sobre o projeto
 
@@ -222,12 +220,13 @@ preço previsto.
 
 ### Métricas
 
-  Métrica     Resultado
-  --------- -----------
-  R²              0,886
-  MAE             9,455
-  MSE           338,331
-  RMSE           18,394
+| Métrica | Resultado |
+|---|---:|
+| R² | 0,886 |
+| MAE | 9,455 |
+| MSE | 338,331 |
+| RMSE | 18,394 |
+
 
 Esse resultado não deve ser interpretado como uma medida de
 generalização do modelo, pois a avaliação foi realizada sobre dados
@@ -250,10 +249,12 @@ notebook refaz o processo seguindo esta sequência:
 A divisão utilizada foi de **80% para treinamento e 20% para teste**,
 com `random_state=42`.
 
-  Conjunto     Linhas
-  ---------- --------
-  Treino       14.765
-  Teste         3.692
+
+| Conjunto | Linhas |
+|---|---:|
+| Treino | 14.765 |
+| Teste | 3.692|
+
 
 No segundo processamento, nenhum registro foi removido por outliers,
 tanto no treino quanto no teste, utilizando os limites calculados a
@@ -278,12 +279,12 @@ MLPRegressor(
 
 Os resultados obtidos no conjunto de teste foram:
 
-  Métrica     Resultado
-  --------- -----------
-  R²              0,665
-  MAE             5,699
-  MSE           373,590
-  RMSE           19,328
+| Métrica | Resultado |
+|---|---:|
+| R² | 0,665 |
+| MAE | 5,699 |
+| MSE | 373,590 |
+| RMSE | 19,328 |
 
 O **R² de 0,665** indica que o modelo explicou aproximadamente 66,5% da
 variabilidade observada nos preços do conjunto de teste.
