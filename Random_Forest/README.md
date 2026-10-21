@@ -71,7 +71,7 @@ Execute as células em ordem para carregar os dados, realizar as análises e tre
 O notebook registra os seguintes resultados para os modelos avaliados:
 
 * **Classificação:** acurácia reportada de **95,24%**, acompanhada de relatório por classe e matriz de confusão.
-* **Regressão:** (R^2 = 0{,}9793) e erro absoluto médio (*MAE*) de aproximadamente **0,7924 ano**, conforme a avaliação registrada no notebook.
+* **Regressão:** (R² = 0,9793) e erro absoluto médio (*MAE*) de aproximadamente **0,7924 ano**, conforme a avaliação registrada no notebook.
 
 Esses valores correspondem aos resultados documentados na atividade e podem variar se os dados, as dependências ou as etapas de processamento forem alterados.
 
@@ -87,7 +87,7 @@ Antes de interpretar os resultados como evidência de capacidade preditiva gener
 └── README.md
 ```
 
-\---
+---
 
 Atividade acadêmica desenvolvida para explorar análise exploratória de dados e modelos de Random Forest com Scikit-learn.
 
